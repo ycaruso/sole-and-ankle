@@ -5,6 +5,7 @@ import { WEIGHTS } from '../../constants';
 
 import Breadcrumbs from '../Breadcrumbs';
 import Select from '../Select';
+import ShoeGrid from '../ShoeGrid';
 import ShoeSidebar from '../ShoeSidebar';
 import Spacer from '../Spacer';
 
@@ -24,7 +25,7 @@ const ShoeIndex = ({ sortId, setSortId }) => {
           </Select>
         </Header>
         <Spacer size={34} />
-        {/* <ShoeGrid /> */}
+        <ShoeGrid />
       </MainColumn>
       <LeftColumn>
         <Breadcrumbs>
